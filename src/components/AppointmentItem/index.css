@@ -1,0 +1,32 @@
+/* Write your CSS here */
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: cnter;
+  align-items: flex-start;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 8px;
+  margin:5px;
+}
+.person-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.pt {
+  font-size: 18px;
+}
+
+.ft {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  justify-content: center;
+  text-align: center;
+}
+.dt {
+  color: #b5b7c4;
+  font-size: 16px;
+}

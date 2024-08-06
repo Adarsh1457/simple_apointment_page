@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.bg-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  width: 100vw;
+}
+.bg-box {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70vw;
+  padding: 20px;
+  border: none;
+}
+.bg-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.add-app-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height:40vh;
+  
+}
+.form-h1 {
+  font-size: 30px;
+}
+label {
+  color: #b5b7c4;
+  font-size: 14px;
+}
+.title-input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 12px;
+  width: 220px;
+  height: 40px;
+}
+.date-input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 12px;
+  width: 220px;
+  height: 40px;
+}
+.form-btn {
+  padding: 12px;
+  width:80px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #8b5cf6;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.bg-img {
+  width: 25vw;
+}
+.appointments-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ap-h {
+  font-size: 24px;
+}
+.ap-p {
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid;
+  color: #8b5cf6;
+}
+hr {
+  width: 100%;
+  border: 1px solid #b5b7c4;
+}
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
